@@ -26,5 +26,5 @@ function exactMatch(drivers, attr_value) {
 
 function exactMatchToList(drivers, k_v) {
   let matches = exactMatch(drivers, k_v);
-  return matches.map(driver => driver.name)
+  return matches.map(driver => driver.name);
 }
